@@ -1,0 +1,361 @@
+body{
+    font-family: 'varela', sans-serif;      
+    background: url(img/outerspace.gif)no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.tab{
+    position: absolute;
+    border: 5px solid rgba(22, 208, 214, 0.637);
+    padding: 40px 50px;
+    border-radius: 100px;
+    width: 1000px;
+    height: 1200px;
+    backdrop-filter: blur(10px);
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.datos{
+    margin-left: 720px;
+    margin-top: -250px;
+    border: 2px solid rgba(155,240,252,255);
+    background-color: #8dd8f1;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.d{
+    text-align: center;
+    border: 2px solid rgba(16,66,171,255);
+    background-color: #4084d9;
+    backdrop-filter: blur(5px);
+}
+
+.d:hover{
+    animation: 0.5s glitch infinite;
+}
+
+.ppp:hover{
+    animation: 0.3s glitch infinite;
+}
+
+h1:hover{
+    animation: 0.3s glitch infinite;
+}
+
+.pp:hover{
+    animation: 0.3s glitch infinite;
+}
+
+h1{
+
+    margin-left: 625px;
+    position: relative;
+    color: #81c8ee;
+}
+
+@keyframes glitch{
+    0%{
+        text-shadow: yellow 0px 0px,
+         blue 0px 0px;
+    }
+    50%{
+        text-shadow: red -4px 0px,
+         cyan 4px 0px;
+    }
+    100%{
+        text-shadow: yellow 0px 0px,
+         blue 0px 0px;
+    }
+}
+
+.parr{
+
+    margin-left: 300px;
+    width: 800px;
+    height: 100px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background-color: #1f0202b0;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    color: aquamarine;
+    text-align: center;
+    
+}
+
+.habi{
+
+    margin-left: 300px;
+    width: 800px;
+    height: 300px;
+    margin-top: 50px;
+    border: 2px solid rgba(14,136,151,255);
+    background-color: #45e6aa;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.H{
+
+    text-align: center;
+    color: #f9ec04;
+    border: 3px solid rgba(14,136,151,255);
+    background-color: #125858;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 30px 30px;
+
+}
+
+.Hab{
+
+    font-size: 20px;
+
+}
+
+ih{
+
+    margin-top: 500px;
+}
+
+.footer{
+
+    position: relative;
+    margin-left: 600px;
+    margin-top: 90px;
+    font-size: 12px;
+    color: #81c8ee;
+}
+
+.ha{
+
+    margin-left: 640px;
+}
+
+.pp{
+
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-top: -80px;
+    background-color: #d14828;
+    color: #082834;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imge{
+
+    margin-top: -100px;
+    margin-left: 100px;
+    position: relative;
+    border-radius: 20%;
+
+}
+
+.im{
+
+    border-radius: 100px;
+    
+    margin-left: -277px;
+    margin-top: 5px;
+}
+
+png{
+    
+    margin-top: 200px;
+    margin-left: 200px;
+  
+}
+
+.hv{
+    margin-left: 600px;
+}
+
+.glitch{
+    font-family: 'varela', sans-serif;
+    color: #81c8ee;
+    margin: 0 auto;
+    font-size: 50px;
+    width: 400px;
+    position: relative;
+}
+
+@keyframes noise-anim{
+    0%{
+        clip: rect(56px, 9999px, 72px, 0);
+    }
+    5%{
+        clip: rect(34px, 9999px, 33px, 0);
+    }
+    10%{
+        clip: rect(66px, 9999px, 11px, 0);
+    }
+    15%{
+        clip: rect(66px, 9999px, 87px, 0);
+    }
+    20%{
+        clip: rect(16px, 9999px, 57px, 0);
+    }
+    25%{
+        clip: rect(72px, 9999px, 98px, 0);
+    }
+    30%{
+        clip: rect(99px, 9999px, 63px, 0);
+    }
+    35%{
+        clip: rect(55px, 9999px, 89px, 0);
+    }
+    40%{
+        clip: rect(56px, 9999px, 28px, 0);
+    }
+    45%{
+        clip: rect(99px, 9999px, 35px, 0);
+    }
+    50%{
+        clip: rect(96px, 9999px, 57px, 0);
+    }
+    55%{
+        clip: rect(53px, 9999px, 53px, 0);
+    }
+    60%{
+        clip: rect(6px, 9999px, 67px, 0);
+    }
+    65%{
+        clip: rect(20px, 9999px, 48px, 0);
+    }
+    70%{
+        clip: rect(51px, 9999px, 53px, 0);
+    }
+    75%{
+        clip: rect(56px, 9999px, 72px, 0);
+    }
+    80%{
+        clip: rect(90px, 9999px, 92px, 0);
+    }
+    85%{
+        clip: rect(33px, 9999px, 82px, 0);
+    }
+    90%{
+        clip: rect(7px, 9999px, 22px, 0);
+    }
+    95%{
+        clip: rect(99px, 9999px, 67px, 0);
+    }
+    100%{
+        clip: rect(73px, 9999px, 77px, 0);
+    }
+}
+
+.glitch::after{
+    font-family: 'varela', sans-serif;
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -1px red;
+    top: 0;
+    color: #81c8ee;
+    background: black;
+    overflow: hidden;
+    clip:rect(0, 980px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2{
+    0%{
+        clip: rect(46px, 9999px, 83px, 0);
+    }
+    5%{
+        clip: rect(6px, 9999px, 59px, 0);
+    }
+    10%{
+        clip: rect(85px, 9999px, 48px, 0);
+    }
+    15%{
+        clip: rect(75px, 9999px, 94px, 0);
+    }
+    20%{
+        clip: rect(55px, 9999px, 84px, 0);
+    }
+    25%{
+        clip: rect(1px, 9999px, 41px, 0);
+    }
+    30%{
+        clip: rect(11px, 9999px, 21px, 0);
+    }
+    35%{
+        clip: rect(33px, 9999px, 65px, 0);
+    }
+    40%{
+        clip: rect(47px, 9999px, 53px, 0);
+    }
+    45%{
+        clip: rect(85px ,9999px, 97px, 0);
+    }
+    50%{
+        clip: rect(50px, 9999px, 87px, 0);
+    }
+    55%{
+        clip: rect(72px, 9999px, 50px, 0);
+    }
+    60%{
+        clip: rect(39px, 9999px, 39px, 0);
+    }
+    65%{
+        clip: rect(44px, 9999px, 31px, 0);
+    }
+    70%{
+        clip: rect(57px, 9999px, 62px, 0);
+    }
+    75%{
+        clip: rect(74px, 9999px, 92px, 0);
+    }
+    80%{
+        clip: rect(35px, 9999px, 18px, 0);
+    }
+    85%{
+        clip: rect(46px, 9999px, 16px, 0);
+    }
+    90%{
+        clip: rect(56px, 9999px, 91px, 0);
+    }
+    95%{
+        clip: rect(77px, 9999px, 74px, 0);
+    }
+    100%{
+        clip: rect(56px, 9999px, 65px, 0);
+    }
+}
+
+.glitch::before{
+    font-family: 'varela', sans-serif;
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: 1px blue;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip:rect(0, 980px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+#GO{
+    margin-left: 600PX;
+}
+
+#GD{
+    margin-left: 600PX;
+}
+
+#CV{
+    margin-left: 560px;
+}
+
+#py{
+    margin-top: -20px
+}
